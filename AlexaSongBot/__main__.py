@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Owner", url="https://t.me/Mr_Dark_Prince"
+                        text="Owner", url="https://t.me/Farseen_king_of_telegram"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(1587091205)
+OWNER_ID.append(1370747399)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
